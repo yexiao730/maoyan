@@ -1,0 +1,19 @@
+{
+  "usingComponents": {},
+  "navigationBarTitleText": "收藏列表",
+  "navigationBarBackgroundColor": "#e54847",
+  "navigationBarTextStyle": "white",
+  "enablePullDownRefresh": true,
+  "pullToRefresh": {
+    "support": true,
+    "contentdown": {
+      "caption": "下拉刷新数据"
+    },
+    "contentover": {
+      "caption": "松开刷新数据"
+    },
+    "contentrefresh": {
+      "caption": "正在加载数据"
+    }
+  }
+}

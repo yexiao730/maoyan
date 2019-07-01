@@ -1,0 +1,169 @@
+{
+	"pages": [
+		//pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/movie/movie",
+			"style": {
+				"navigationBarTitleText": "猫眼电影",
+				"navigationBarBackgroundColor": "#e54847",
+				"navigationBarTextStyle": "white"
+			}
+		},
+		{
+            "path" : "pages/query/query",
+            "style" : {
+                "backgroundColor" : "#f5f5f5",
+				"navigationBarTitleText": "查询",
+				"navigationBarBackgroundColor": "#e54847",
+				"navigationBarTextStyle": "white"
+            }
+        },
+		{
+			"path": "pages/cinema/cinema",
+			"style": {
+				"navigationBarTitleText": "影院",
+				"navigationBarBackgroundColor": "#e54847",
+				"navigationBarTextStyle": "white"
+			}
+		},
+		{
+			"path": "pages/me/me",
+			"style": {
+				"navigationBarTitleText": "我的",
+				"navigationBarBackgroundColor": "#e54847",
+				"navigationBarTextStyle": "white",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/buyTicket/buyTicket",
+			"style": {
+				"navigationBarTitleText": "猫眼电影",
+				"navigationBarBackgroundColor": "#e54847",
+				"navigationBarTextStyle": "white",
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/movieDetail/movieDetail",
+			"style": {
+				"navigationBarTitleText": "电影详情",
+				"navigationBarBackgroundColor": "#e54847",
+				"navigationBarTextStyle": "white",
+				"enablePullDownRefresh": true,
+				"app-plus": {
+					"titleNView": {
+						"buttons": [{
+								"type": "favorite"
+							},
+							{
+								"type": "share"
+							}
+						]
+					},
+					"pullToRefresh": {
+						"support": true,
+						"contentdown": {
+							"caption": "下拉刷新数据"
+						},
+						"contentover": {
+							"caption": "松开开始刷新"
+						},
+						"contentrefresh": {
+							"caption": "正在刷新数据"
+						}
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/loginSys/loginSys",
+			"style": {
+				"navigationBarTitleText": "登陆",
+				"navigationBarBackgroundColor": "#e54847",
+				"navigationBarTextStyle": "white"
+			}
+		},
+		{
+			"path": "pages/appVersion/appVersion",
+			"style": {
+				"navigationBarTitleText": "版本信息",
+				"navigationBarBackgroundColor": "#e54847",
+				"navigationBarTextStyle": "white"
+			}
+		},
+		{
+			"path": "pages/boxoffice/boxoffice",
+			"style": {
+				"navigationBarTitleText": "票房",
+				"navigationBarBackgroundColor": "#e54847",
+				"navigationBarTextStyle": "white",
+				"enablePullDownRefresh":true
+			}
+		},
+		{
+			"path": "pages/saveCollection/saveCollection",
+			"style": {
+				"navigationBarTitleText": "收藏列表",
+				"navigationBarBackgroundColor": "#e54847",
+				"navigationBarTextStyle": "white",
+				"enablePullDownRefresh": true,
+				"app-plus": {
+					"pullToRefresh": {
+						"support": true,
+						"contentdown": {
+							"caption": "下拉刷新数据"
+						},
+						"contentover": {
+							"caption": "松开刷新数据"
+						},
+						"contentrefresh": {
+							"caption": "正在加载数据"
+						}
+					}
+				}
+			}
+		}
+	    
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "猫眼电影",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"color": "#7A7E83",
+		"selectedColor": "#007AFF",
+		"borderStyle": "black",
+		"backgroundColor": "#ffffff",
+		"list": [{
+				"pagePath": "pages/movie/movie",
+				"iconPath": "static/movie1.png",
+				"selectedIconPath": "static/movie.png",
+				"text": "影片"
+			},
+			{
+				"pagePath": "pages/cinema/cinema",
+				"iconPath": "static/cinema1.png",
+				"selectedIconPath": "static/cinema.png",
+				"text": "影院"
+			},
+			{
+				"pagePath": "pages/boxoffice/boxoffice",
+				"iconPath": "static/paihang1.png",
+				"selectedIconPath": "static/paihang.png",
+				"text": "票房"
+			},
+			
+			{
+				"pagePath": "pages/me/me",
+				"iconPath": "static/me1.png",
+				"selectedIconPath": "static/me.png",
+				"text": "我的"
+			}
+		]
+	}
+}

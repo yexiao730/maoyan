@@ -1,0 +1,2 @@
+<import src="./movie.vue.wxml" />
+    <template is="100b335e" data="{{ ...$root['0'], $root }}"/>

@@ -1,0 +1,9 @@
+<import src="/components/movieItem/movieItem.vue.wxml" />
+<import src="/components/hot/hot.vue.wxml" />
+<import src="/components/coming/coming.vue.wxml" />
+<import src="/components/cityListView/cityListView.vue.wxml" />
+<import src="/components/saveCollectionItem/saveCollectionItem.vue.wxml" />
+<import src="/common/slots.wxml" />
+
+<template name="data-v-4911375a-default-fd10d404-0-+index">{{item.comingTitle}}</template>
+

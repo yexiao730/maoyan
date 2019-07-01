@@ -1,0 +1,2 @@
+<import src="./saveCollection.vue.wxml" />
+    <template is="107d471c" data="{{ ...$root['0'], $root }}"/>

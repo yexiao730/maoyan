@@ -1,0 +1,2 @@
+<import src="./buyTicket.vue.wxml" />
+    <template is="0dbb1762" data="{{ ...$root['0'], $root }}"/>

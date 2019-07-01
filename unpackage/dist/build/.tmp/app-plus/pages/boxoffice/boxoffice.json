@@ -1,0 +1,7 @@
+{
+  "usingComponents": {},
+  "navigationBarTitleText": "票房",
+  "navigationBarBackgroundColor": "#e54847",
+  "navigationBarTextStyle": "white",
+  "enablePullDownRefresh": true
+}

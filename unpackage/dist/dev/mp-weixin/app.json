@@ -1,0 +1,59 @@
+{
+  "pages": [
+    "pages/movie/movie",
+    "pages/query/query",
+    "pages/cinema/cinema",
+    "pages/me/me",
+    "pages/buyTicket/buyTicket",
+    "pages/movieDetail/movieDetail",
+    "pages/loginSys/loginSys",
+    "pages/appVersion/appVersion",
+    "pages/boxoffice/boxoffice",
+    "pages/saveCollection/saveCollection"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "猫眼电影",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "usingComponents": {},
+  "tabBar": {
+    "color": "#7A7E83",
+    "selectedColor": "#007AFF",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/movie/movie",
+        "iconPath": "static/movie1.png",
+        "selectedIconPath": "static/movie.png",
+        "text": "影片"
+      },
+      {
+        "pagePath": "pages/cinema/cinema",
+        "iconPath": "static/cinema1.png",
+        "selectedIconPath": "static/cinema.png",
+        "text": "影院"
+      },
+      {
+        "pagePath": "pages/boxoffice/boxoffice",
+        "iconPath": "static/paihang1.png",
+        "selectedIconPath": "static/paihang.png",
+        "text": "票房"
+      },
+      {
+        "pagePath": "pages/me/me",
+        "iconPath": "static/me1.png",
+        "selectedIconPath": "static/me.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "permission": {
+    "scope.userLocation": {
+      "desc": "根据定位获取所在城市，展示当地推荐电影"
+    }
+  }
+}

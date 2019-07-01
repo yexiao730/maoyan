@@ -1,0 +1,7 @@
+{
+  "usingComponents": {},
+  "navigationBarTitleText": "电影详情",
+  "navigationBarBackgroundColor": "#e54847",
+  "navigationBarTextStyle": "white",
+  "enablePullDownRefresh": true
+}

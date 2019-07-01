@@ -1,0 +1,91 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 这是页面的公用css */
+page {
+	background-color: #F8F8F8;
+	height: 100%;
+}
+@font-face {
+  font-family: 'iconfont';  /* project id 961479 */
+  src: url('https://at.alicdn.com/t/font_961479_jvas26u3ik.eot');
+  src: url('https://at.alicdn.com/t/font_961479_jvas26u3ik.eot?#iefix') format('embedded-opentype'),
+  url('https://at.alicdn.com/t/font_961479_jvas26u3ik.woff') format('woff'),
+  url('https://at.alicdn.com/t/font_961479_jvas26u3ik.ttf') format('truetype'),
+  url('http://at.alicdn.com/t/font_961479_jvas26u3ik.svg#iconfont') format('svg');
+}
+

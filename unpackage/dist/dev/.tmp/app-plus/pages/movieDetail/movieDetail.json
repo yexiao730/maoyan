@@ -1,0 +1,29 @@
+{
+  "usingComponents": {},
+  "navigationBarTitleText": "电影详情",
+  "navigationBarBackgroundColor": "#e54847",
+  "navigationBarTextStyle": "white",
+  "enablePullDownRefresh": true,
+  "titleNView": {
+    "buttons": [
+      {
+        "type": "favorite"
+      },
+      {
+        "type": "share"
+      }
+    ]
+  },
+  "pullToRefresh": {
+    "support": true,
+    "contentdown": {
+      "caption": "下拉刷新数据"
+    },
+    "contentover": {
+      "caption": "松开开始刷新"
+    },
+    "contentrefresh": {
+      "caption": "正在刷新数据"
+    }
+  }
+}

@@ -1,0 +1,2 @@
+<import src="./appVersion.vue.wxml" />
+    <template is="4bbf489c" data="{{ ...$root['0'], $root }}"/>

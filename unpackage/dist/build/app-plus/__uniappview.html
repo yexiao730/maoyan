@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+    <head>
+        <meta charset="UTF-8" />
+        <script>
+            var coverSupport = 'CSS' in window && typeof CSS.supports === 'function' && (CSS.supports('top: env(a)') || CSS.supports('top: constant(a)'))
+            document.write('<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0' + (coverSupport ? ', viewport-fit=cover' : '') + '" />')
+        </script>
+        <title>View</title>
+        <style>
+            * {
+                -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+                -webkit-tap-highlight-color: transparent;
+            }
+
+            input[type="search"i]::-webkit-search-cancel-button {
+                display: none;
+            }
+
+        </style>
+        <script>
+            var __wxConfig = {"debug":false,"appname":"maoyan1109","entryPagePath":"pages/movie/movie.html","page":{"pages/movie/movie.html":{"window":{"usingComponents":{},"navigationBarTitleText":"猫眼电影","navigationBarBackgroundColor":"#e54847","navigationBarTextStyle":"white"}},"pages/query/query.html":{"window":{"usingComponents":{},"backgroundColor":"#f5f5f5","navigationBarTitleText":"查询","navigationBarBackgroundColor":"#e54847","navigationBarTextStyle":"white"}},"pages/cinema/cinema.html":{"window":{"usingComponents":{},"navigationBarTitleText":"影院","navigationBarBackgroundColor":"#e54847","navigationBarTextStyle":"white"}},"pages/me/me.html":{"window":{"usingComponents":{},"navigationBarTitleText":"我的","navigationBarBackgroundColor":"#e54847","navigationBarTextStyle":"white","enablePullDownRefresh":true}},"pages/buyTicket/buyTicket.html":{"window":{"usingComponents":{},"navigationBarTitleText":"猫眼电影","navigationBarBackgroundColor":"#e54847","navigationBarTextStyle":"white","titleNView":false}},"pages/movieDetail/movieDetail.html":{"window":{"usingComponents":{},"navigationBarTitleText":"电影详情","navigationBarBackgroundColor":"#e54847","navigationBarTextStyle":"white","enablePullDownRefresh":true,"titleNView":{"buttons":[{"type":"favorite"},{"type":"share"}]},"pullToRefresh":{"support":true,"contentdown":{"caption":"下拉刷新数据"},"contentover":{"caption":"松开开始刷新"},"contentrefresh":{"caption":"正在刷新数据"}}}},"pages/loginSys/loginSys.html":{"window":{"usingComponents":{},"navigationBarTitleText":"登陆","navigationBarBackgroundColor":"#e54847","navigationBarTextStyle":"white"}},"pages/appVersion/appVersion.html":{"window":{"usingComponents":{},"navigationBarTitleText":"版本信息","navigationBarBackgroundColor":"#e54847","navigationBarTextStyle":"white"}},"pages/boxoffice/boxoffice.html":{"window":{"usingComponents":{},"navigationBarTitleText":"票房","navigationBarBackgroundColor":"#e54847","navigationBarTextStyle":"white","enablePullDownRefresh":true}},"pages/saveCollection/saveCollection.html":{"window":{"usingComponents":{},"navigationBarTitleText":"收藏列表","navigationBarBackgroundColor":"#e54847","navigationBarTextStyle":"white","enablePullDownRefresh":true,"pullToRefresh":{"support":true,"contentdown":{"caption":"下拉刷新数据"},"contentover":{"caption":"松开刷新数据"},"contentrefresh":{"caption":"正在加载数据"}}}}},"global":{"window":{"navigationBarTextStyle":"black","navigationBarTitleText":"猫眼电影","navigationBarBackgroundColor":"#F8F8F8","backgroundColor":"#F8F8F8"}},"tabBar":{"color":"#7A7E83","selectedColor":"#007AFF","backgroundColor":"#ffffff","borderStyle":"black","list":[{"pagePath":"pages/movie/movie.html","iconPath":"static/movie1.png","selectedIconPath":"static/movie.png","text":"影片"},{"pagePath":"pages/cinema/cinema.html","iconPath":"static/cinema1.png","selectedIconPath":"static/cinema.png","text":"影院"},{"pagePath":"pages/boxoffice/boxoffice.html","iconPath":"static/paihang1.png","selectedIconPath":"static/paihang.png","text":"票房"},{"pagePath":"pages/me/me.html","iconPath":"static/me1.png","selectedIconPath":"static/me.png","text":"我的"}],"position":"bottom"},"networkTimeout":{"request":60000,"connectSocket":60000,"uploadFile":60000,"downloadFile":60000},"platform":"devtools","pages":["pages/movie/movie","pages/query/query","pages/cinema/cinema","pages/me/me","pages/buyTicket/buyTicket","pages/movieDetail/movieDetail","pages/loginSys/loginSys","pages/appVersion/appVersion","pages/boxoffice/boxoffice","pages/saveCollection/saveCollection"],"subPackages":[],"usingComponents":{},"splashscreen":{"alwaysShowBeforeRender":true,"autoclose":false},"compilerVersion":"1.8.2"}
+
+        </script>
+        <script>
+            var __id__ = '';
+            window.__dispatchGenerateFunc__ = function(page) {
+                __id__ = page;
+                document.title = page;
+                // window.history.pushState('', '', page);
+                plus.webview.currentWebview().setJsFile('_www/' + page.replace('.html', '.js'));
+            };
+
+        </script>
+        <script src="__uniappes6.js"></script>
+        <script src="uniapp://ready"></script>
+    </head>
+
+    <body>
+        <div></div>
+    </body>
+
+</html>

@@ -1,0 +1,4 @@
+<import src="/components/movieItem/movieItem.vue.wxml" />
+
+<template name="data-v-4911375a-default-fd10d404-0-+index">{{item.comingTitle}}</template>
+
